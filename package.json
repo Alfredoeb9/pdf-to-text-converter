@@ -45,10 +45,5 @@
     "jest-environment-jsdom": "^29.7.0",
     "jsdom": "24.0.0",
     "ts-jest": "^29.1.2"
-  },
-  "jest": {
-    "transformIgnorePatterns": [
-      "node_modules/(?!axios)/"
-    ]
   }
 }

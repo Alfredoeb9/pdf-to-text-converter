@@ -25,7 +25,6 @@ describe("App", () => {
   const renderComponent = () => render(<App />);
   test("renders upload and extract button", () => {
     renderComponent();
-    screen.debug();
     const uploadPDF = screen.getByText(/Upload and Extract/i);
     fireEvent.click(uploadPDF);
     expect(uploadPDF).toBeInTheDocument();
