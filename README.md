@@ -2,6 +2,10 @@
 
 This project was motivated behind one day using adobe's pdf to text converter and wondered how this was possible and if I can create this. So I said game one and booted up my IDE.
 
+- React.js ✅
+- chadUI ✅
+- Unit Test (jest) ✅
+
 ## Available Scripts
 
 In the project directory, you can run:
