@@ -1,11 +1,11 @@
 const { JSDOM } = require("jsdom");
 
 const DEFAULT_HTML = `<html>
-    <head><title>A1 Fitness Logger</title></head>
+    <head><title>Pdf To Text Converter</title></head>
 </html>`;
 
 const DOM = new JSDOM(DEFAULT_HTML, {
-  url: "http://localhost:3002",
+  url: "http://localhost:3000",
 });
 const { window } = DOM;
 
